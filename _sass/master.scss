@@ -33,6 +33,22 @@ body {
 .container-content {
   max-width: 46em;
 }
+// Archived 
+// -------------------------------------------------------------
+.media-heading {
+  font-size: 17.5px;
+  line-height: 20px;
+}
+
+
+// Footer
+// -------------------------------------------------------------
+#footer {
+  h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 
 // Contributors List
 // -------------------------------------------------------------
@@ -64,6 +80,11 @@ body {
 // Post
 // -------------------------------------------------------------
 .latest-posts {
+  h3 { //give the same styles as h4
+    font-size: 17.5px;
+    line-height: 20px;
+  }
+
   .span3 {
     border-bottom: 1px solid #eee;
 
